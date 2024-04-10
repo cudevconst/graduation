@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/background.jpg'); /* Đường dẫn tương đối đến hình ảnh nền */
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: blur(7px);
+}
+
+#container{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#left, #right{
+    width: 25%;
+    text-align: center;
+}
+#left p{
+    font-family: "Corinthia", cursive;
+    font-optical-sizing: auto;
+    font-size: 140px;
+    font-style: normal;
+    font-style: italic;
+    color: #FFFFFF;
+}
+#content{
+    height: 500px;
+    width: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content h1{
+    font-family: 'Brush Script MT', cursive;
+}
+@media only screen and (max-width: 500px) {
+    .background-image{
+        background-image: url('../image/background-xs.webp');
+        
+    }
+}
