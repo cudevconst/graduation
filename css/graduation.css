@@ -40,13 +40,46 @@
 #content{
     height: 500px;
     width: 50%;
-    background-color: red;
+    border: 5px solid #333;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 #content h1{
     font-family: 'Brush Script MT', cursive;
+}
+#count-time{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.units{
+    display: flex;
+    width: 25%;
+    position: relative;
+    justify-content: center;
+    
+}
+.time-display{
+    font-family: "Pacifico", cursive;
+    font-size: 70px;
+    font-style: italic;
+}
+.unit{
+    font-family: "Pacifico", cursive;
+    font-size: 22px;
+    position: absolute;
+    font-style: italic;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 25px;
 }
 @media only screen and (max-width: 500px) {
     .background-image{
