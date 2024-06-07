@@ -1,7 +1,7 @@
 Nguyen Van Cuong test 2
 // Where you want to render the map.
 var element = document.getElementById('osm-map');
-Toi muon test
+Tôi không muốn test
 // Height has to be set. You can do this in CSS too.
 element.style = 'height:500px;';
 Tôi không muốn test
