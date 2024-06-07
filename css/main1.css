@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main{
+    height: 100vh;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content{
+    height: 95%;
+    width: 100%;
+    border: 4px solid #333333;
+    background-color: #ffffe6;
+
+}
